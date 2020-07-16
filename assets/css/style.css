@@ -1,0 +1,72 @@
+.mynavbar{
+    margin-top: -6rem !important;
+}
+.mt-7{
+    margin-top: 6rem !important;
+}
+
+.jumbo{
+    margin-top: -10rem;
+}
+.mt-8{
+    margin-top: 5rem;
+}
+.borderbtn{
+    margin-left: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.bordertext{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.borderbtn2{
+    height: 100px;
+    width: 100px;
+}
+
+.bckrnjmb{
+    background: #FFFFFF !important;
+}
+
+    #welcome
+	{
+		position: relative;
+		padding: 4em 0em 4em 0em;
+        /* background: #111111 url(images/header-bg.png) no-repeat center; */
+        background-color: #e9ecef;
+		background-size: cover;
+		text-align: center;
+	}
+	
+	#welcome .containers
+	{
+		width: 1000px;
+		padding: 0px 100px;
+		/* color: rgba(255,255,255,0.8); */
+	}
+	
+	#welcome a
+	{
+		/* color: rgba(255,255,255,1); */
+    }
+    .containers
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1200px;
+    }
+    #three-column .title .byline
+	{
+		text-align: center;
+		/* color: rgba(0,0,0,.5); */
+    }
+    .pad{
+        margin-top: 4px;
+        margin-bottom: -45px;
+    }
