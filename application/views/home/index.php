@@ -110,7 +110,7 @@
                                 <h1>Jalangkote</h1>
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur tempore, ut nulla qui tempora magni, quasi facilis atque nobis non accusantium, necessitatibus quisquam minima! Soluta sequi nisi odio similique saepe!</p>
                         </div>
-                    </div>
+                    </div> 
                     </div>
                     <div class="carousel-item">
                         <div class="row">
