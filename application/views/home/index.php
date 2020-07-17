@@ -56,13 +56,13 @@
         <div class="form-group mx-auto mb-2">
             <div class="row">
                 <div class="col-sm-4">
-                    <a href="<?= base_url('kuliner')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto" >
+                    <a href="<?= base_url('home/kuliner')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto" >
                         <img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt="">
                     </a>
                     <label for="">Kuliner Tradisional</label>
                 </div>
                 <div class="col-sm-4">
-                        <a href="<?= base_url('maps')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto">
+                        <a href="<?= base_url('home/maps')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto">
                             <img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt="">
                         </a>
                      <label for="">Pedagang Kuliner</label>
