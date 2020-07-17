@@ -9,7 +9,7 @@
               </center>
           </div>
           <div class="pad">
-          <p><i class="fas fa-instagram"></i> | <i class="fas fa-facebook"></i> | <i class="fas fa-twitter"></i>| <i class="fas fa-whatsapp"></i></p>
+          <p><i class="fab fa-instagram"></i> | <i class="fab fa-facebook"></i> | <i class="fab fa-twitter"></i>| <i class="fab fa-whatsapp"></i></p>
       </div>
       </div>
   </footer>
