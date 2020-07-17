@@ -68,7 +68,7 @@
                      <label for="">Pedagang Kuliner</label>
                 </div>
                 <div class="col-sm-4">
-                    <button type="submit" class="btn rounded-circle borderbtn2 mb-2 my-auto"><img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt=""></button>
+                    <a href="<?= base_url('home/kota')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto"><img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt=""></a>
                     <label for="">Kabupaten/Kota</label>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand" href="#"><small>Logo</small></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -33,17 +33,14 @@
 
 <div class="jumbotron bckrnjmb">
     <div class="container">
-        <center>
-            <form class="form-inline">
-            <div class="form-group mx-auto mb-2">
-                <input type="search" class="form-control bordertext" id="search-input">
-                <button type="submit" class="btn btn-warning borderbtn mb-2 my-auto"><i class="fa fa-search"></i></button>
-            </div>
-            </form>
-        </center>
-    </div>
-</div>
-<div class="container">
     <center>
+        <form class="form-inline">
+        <div class="form-group mx-auto mb-2">
+            <label for="inputPassword2" class="sr-only">Password</label>
+            <input type="search" class="form-control bordertext" id="search-input">
+            <button type="submit" class="btn btn-warning borderbtn mb-2 my-auto"><i class="fa fa-search"></i></button>
+        </div>
+        </form>
     </center>
     </div>
+</div>
