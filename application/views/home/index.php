@@ -34,7 +34,7 @@
 <div class="jumbotron jumbo">
     <div class="container mt-8 text-white">
      <center >
-     <h1 class="display-1 my-4">Daeng Kuliner</h1>
+     <h1 class="display-1 my-4 text-warning">Daeng Kuliner</h1>
      </center>
      <center class="textcenter">
         <ps>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -60,17 +60,17 @@
                     <a href="<?= base_url('home/kuliner')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto shadow p-3 mb-5 bg-white" >
                         <img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt="">
                     </a>
-                    <label for="" class="mt-2">Kuliner Tradisional</label>
+                    <label for="" class="mt-3">Kuliner Tradisional</label>
                 </div>
                 <div class="col-sm-4">
                         <a href="<?= base_url('home/maps')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto shadow p-3 mb-5 bg-white">
                             <img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt="">
                         </a>
-                     <label for="" class="mt-2">Pedagang Kuliner</label>
+                     <label for="" class="mt-3">Pedagang Kuliner</label>
                 </div>
                 <div class="col-sm-4">
                     <a href="<?= base_url('home/kota')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto shadow p-3 mb-5 bg-white"><img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt=""></a>
-                    <label for="" class="mt-2">Kabupaten/Kota</label>
+                    <label for="" class="mt-3">Kabupaten/Kota</label>
                 </div>
             </div>
         </div>
@@ -110,6 +110,7 @@
                         <div class="col-sm-6">
                                 <h1>Jalangkote</h1>
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur tempore, ut nulla qui tempora magni, quasi facilis atque nobis non accusantium, necessitatibus quisquam minima! Soluta sequi nisi odio similique saepe!</p>
+                                <button type="button" class="btn btn-warning text-white mt-3 btn-kuliner">Lihat Resep</button>
                         </div>
                     </div> 
                     </div>
@@ -121,6 +122,7 @@
                             <div class="col-sm-6">
                                 <h1>Jalangkote</h1>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur tempore, ut nulla qui tempora magni, quasi facilis atque nobis non accusantium, necessitatibus quisquam minima! Soluta sequi nisi odio similique saepe!</p>
+                                    <button type="button" class="btn btn-warning text-white mt-3 btn-kuliner">Lihat Resep</button>
                             </div>
                         </div>
                     </div>
@@ -132,6 +134,7 @@
                             <div class="col-sm-6">
                                 <h1>Jalangkote</h1>
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur tempore, ut nulla qui tempora magni, quasi facilis atque nobis non accusantium, necessitatibus quisquam minima! Soluta sequi nisi odio similique saepe!</p>
+                                <button type="button" class="btn btn-warning text-white mt-3 btn-kuliner">Lihat Resep</button>
                             </div>
                         </div>
                     </div>

@@ -67,6 +67,13 @@
     margin-top: -50px;
 }
 
+.btn-kuliner{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
 
     #welcome
 	{
