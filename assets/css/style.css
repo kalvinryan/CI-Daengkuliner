@@ -7,10 +7,18 @@
 
 .jumbo{
     margin-top: -10rem;
+    background-image: url('../pictures/header.png');
+    background-size: cover;
+    height: 815px;
 }
 .mt-8{
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
+.textcenter
+{
+    margin-top: 100px;
+}
+
 .borderbtn{
     margin-left: 5px;
     border-top-right-radius: 15px;
@@ -31,30 +39,52 @@
 }
 
 .bckrnjmb{
-    background: #FFFFFF !important;
+    background-image: url('../pictures/Untitled-1.png');
+    background-size: cover;
+    height: 400px;
+
 }
+.bckrnjmb1{
+    margin-top: 100px;
+    background-image: url('../pictures/Untitled-1.png');
+    background-size: cover;
+    height: 400px;
+
+}
+.bckrnjmbimg{
+    background-image: url('../pictures/Untitled-1.png');
+
+}
+
+.textseacrh{
+    width: 400px !important;
+}
+.textkategori{
+    margin-top: -50px;
+}
+
+.mt-x9{
+    margin-top: -50px;
+}
+
 
     #welcome
 	{
 		position: relative;
 		padding: 4em 0em 4em 0em;
-        /* background: #111111 url(images/header-bg.png) no-repeat center; */
-        background-color: #e9ecef;
+        background-image: url('../pictures/footer.png');
 		background-size: cover;
-		text-align: center;
+        text-align: center;
+        /* height: 400px; */
 	}
 	
 	#welcome .containers
 	{
 		width: 1000px;
 		padding: 0px 100px;
-		/* color: rgba(255,255,255,0.8); */
+		margin-top: 100px;
 	}
 	
-	#welcome a
-	{
-		/* color: rgba(255,255,255,1); */
-    }
     .containers
 	{
 		overflow: hidden;
@@ -69,4 +99,7 @@
     .pad{
         margin-top: 4px;
         margin-bottom: -45px;
+    }
+    footer{
+        
     }

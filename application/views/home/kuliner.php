@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <a class="navbar-brand" href="#"><small>Logo</small></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -31,8 +31,8 @@
         </ul>
 </nav>
 
-<div class="jumbotron bckrnjmb">
-    <div class="container">
+<div class="jumbotron bckrnjmb1">
+    <div class="container mt-x9">
         <center>
             <form class="form-inline">
             <div class="form-group mx-auto mb-2">
@@ -42,8 +42,37 @@
             </form>
         </center>
     </div>
-</div>
-<div class="container">
-    <center>
-    </center>
+    <div class="container mt-5">
+        <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img class="card-img-top" style="width: 18rem; height: 10rem;" src="<?= base_url('assets/')?>pictures/default-150x150.png" alt="Card image cap">
+                </div>
+                <div class="col-sm-6">
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">Sebelumnya</a></li>
+                    </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-6">
+                    <nav aria-label="Page navigation example">
+                    <ul class="pagination float-right d-inline-block">
+                        <li class="page-item"><a class="page-link" href="#">Selanjutnya</a></li>
+                    </ul>
+                    </nav>
+                </div>
+            </div> 
+        </div>
     </div>
+</div>
+</div>
+

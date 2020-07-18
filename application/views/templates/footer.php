@@ -1,9 +1,9 @@
   <footer>
-      <div id="welcome">
+      <div id="welcome" class="text-white">
           <div class="containers container">
               <center>
               <div class="title">
-                  <h2 class="">Daeng Kuliner</h2>
+                  <h4 class="">Daeng Kuliner</h4>
               </div>
               <p>Ex: <strong>Jalangkote</strong> merupakan salah satu jajanan khas yang sering di jumpai di kota makassar. Jajanan ini merupakan sejenis gorengan berbahan dasar tepung.</p>
               </center>

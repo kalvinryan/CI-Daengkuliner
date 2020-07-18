@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg navbar-dark">
   <a class="navbar-brand mynavbar" href="#"><small>Logo</small></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -32,24 +32,25 @@
 </nav>
 
 <div class="jumbotron jumbo">
-    <div class="container mt-8">
-    <center>
-        <h1 class="display-4 my-4">Daeng Kuliner</h1>
+    <div class="container mt-8 text-white">
+     <center >
+     <h1 class="display-1 my-4">Daeng Kuliner</h1>
+     </center>
+     <center class="textcenter">
         <ps>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <form class="form-inline">
+        <form class="form-inline textcenter">
         <div class="form-group mx-auto mb-2">
-            <label for="inputPassword2" class="sr-only">Password</label>
-            <input type="search" class="form-control bordertext" id="search-input">
+            <input type="search" class="form-control bordertext textseacrh" id="search-input">
             <button type="submit" class="btn btn-warning borderbtn mb-2 my-auto"><i class="fa fa-search"></i></button>
         </div>
         </form>
-    </center>
+     </center>
     </div>
 </div>
 
-<div class="jumbotron bckrnjmb">
-    <div class="container">
+<div class="jumbotron bckrnjmbimg">
+    <div class="container textkategori">
     <center>
         <h1 class="display-4 my-4">Kategori</h1>
         <form class="form-inline">
