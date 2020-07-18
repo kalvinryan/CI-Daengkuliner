@@ -3,7 +3,7 @@
           <div class="containers container">
               <center>
               <div class="title">
-                  <h4 class="">Daeng Kuliner</h4>
+                  <h4 class="font-header">Daeng Kuliner</h4>
               </div>
               <p>Ex: <strong>Jalangkote</strong> merupakan salah satu jajanan khas yang sering di jumpai di kota makassar. Jajanan ini merupakan sejenis gorengan berbahan dasar tepung.</p>
               </center>

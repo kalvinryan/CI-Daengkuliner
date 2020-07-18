@@ -73,6 +73,20 @@
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+@font-face{
+    font-family: 'Great_Vibes';
+    src: url('../font/Great_Vibes/GreatVibes-Regular.ttf');
+}
+@font-face{
+    font-family: 'Amita';
+    src: url('../font/Amita/Amita-Regular.ttf');
+}
+.font-header{
+    font-family: 'Great_Vibes';
+}
+.font-page{
+        font-family: 'Amita';
+}
 
 
     #welcome

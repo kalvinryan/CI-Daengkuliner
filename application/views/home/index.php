@@ -34,7 +34,7 @@
 <div class="jumbotron jumbo">
     <div class="container mt-8 text-white">
      <center >
-     <h1 class="display-1 my-4 text-warning">Daeng Kuliner</h1>
+     <h1 class="display-1 my-4 text-warning font-header">Daeng Kuliner</h1>
      </center>
      <center class="textcenter">
         <ps>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -52,7 +52,7 @@
 <div class="jumbotron bckrnjmbimg">
     <div class="container textkategori">
     <center>
-        <h1 class="display-4 my-4">Kategori</h1>
+        <h1 class="display-4 my-4 font-page">Kategori</h1>
         <form class="form-inline">
         <div class="form-group mx-auto mb-2">
             <div class="row">
@@ -87,7 +87,7 @@
              <hr class="my-4">
             </div>
             <div class="col-sm-4">
-               <center> <h1 class="display-4">Recipes</h1></center>
+               <center> <h1 class="display-4 font-page">Recipes</h1></center>
             </div>
             <div class="col-sm-4">
              <hr class="my-4">
@@ -156,7 +156,7 @@
 <div class="jumbotron jumbotron-fluid bckrnjmb">
   <div class="container">
     <center>
-        <h1 class="display-4">About Us</h1>
+        <h1 class="display-4 font-page">About Us</h1>
         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum asperiores culpa eum est quibusdam autem consequuntur ducimus pariatur? Consequatur accusantium earum dignissimos fuga assumenda culpa a deleniti qui excepturi temporibus.</p>
     </center>
   </div>
