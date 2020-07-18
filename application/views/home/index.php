@@ -57,20 +57,20 @@
         <div class="form-group mx-auto mb-2">
             <div class="row">
                 <div class="col-sm-4">
-                    <a href="<?= base_url('home/kuliner')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto" >
+                    <a href="<?= base_url('home/kuliner')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto shadow p-3 mb-5 bg-white" >
                         <img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt="">
                     </a>
-                    <label for="">Kuliner Tradisional</label>
+                    <label for="" class="mt-2">Kuliner Tradisional</label>
                 </div>
                 <div class="col-sm-4">
-                        <a href="<?= base_url('home/maps')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto">
+                        <a href="<?= base_url('home/maps')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto shadow p-3 mb-5 bg-white">
                             <img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt="">
                         </a>
-                     <label for="">Pedagang Kuliner</label>
+                     <label for="" class="mt-2">Pedagang Kuliner</label>
                 </div>
                 <div class="col-sm-4">
-                    <a href="<?= base_url('home/kota')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto"><img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt=""></a>
-                    <label for="">Kabupaten/Kota</label>
+                    <a href="<?= base_url('home/kota')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto shadow p-3 mb-5 bg-white"><img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt=""></a>
+                    <label for="" class="mt-2">Kabupaten/Kota</label>
                 </div>
             </div>
         </div>
@@ -105,7 +105,7 @@
                     <div class="carousel-item active">
                     <div class="row">
                         <div class="col-sm-6">
-                            <img class="d-block w-100 rounded" src="<?= base_url('assets/')?>pictures/default-150x150.png" alt="First slide">
+                            <img class="d-block w-100 rounded" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="First slide">
                         </div>
                         <div class="col-sm-6">
                                 <h1>Jalangkote</h1>
@@ -116,7 +116,7 @@
                     <div class="carousel-item">
                         <div class="row">
                             <div class="col-sm-6">
-                                <img class="d-block w-100" src="<?= base_url('assets/')?>pictures/default-150x150.png" alt="Second slide">
+                                <img class="d-block w-100" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Second slide">
                             </div>
                             <div class="col-sm-6">
                                 <h1>Jalangkote</h1>
@@ -127,7 +127,7 @@
                     <div class="carousel-item">
                         <div class="row">
                             <div class="col-sm-6">
-                                <img class="d-block w-100" src="<?= base_url('assets/')?>pictures/default-150x150.png" alt="Third slide">
+                                <img class="d-block w-100" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Third slide">
                             </div>
                             <div class="col-sm-6">
                                 <h1>Jalangkote</h1>

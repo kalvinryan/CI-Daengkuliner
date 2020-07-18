@@ -15,7 +15,7 @@
   </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="<?= base_url('assets/')?>bootstrap/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="<?= base_url('assets/')?>bootstrap/js/jquery-3.3.1.slim.min.js"></script>
     <script src="<?= base_url('assets/')?>bootstrap/js/popper.min.js"></script>
     <script src="<?= base_url('assets/')?>bootstrap/js/bootstrap.min.js"></script>
     <script src="<?= base_url('assets/')?>fontawesome/js/all.min.js"></script>

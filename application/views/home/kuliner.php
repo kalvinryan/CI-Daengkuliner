@@ -43,7 +43,7 @@
         </center>
     </div>
     <div class="container mt-5">
-        <div class="card">
+        <div class="card shadow-sm p-3 mb-5 bg-white">
         <div class="card-body">
             <div class="row">
                 <div class="col-sm-4">
