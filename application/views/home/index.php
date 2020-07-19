@@ -109,8 +109,8 @@
                         </div>
                         <div class="col-sm-6">
                                 <h1>Jalangkote</h1>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur tempore, ut nulla qui tempora magni, quasi facilis atque nobis non accusantium, necessitatibus quisquam minima! Soluta sequi nisi odio similique saepe!</p>
-                                <button type="button" class="btn btn-warning text-white mt-3 btn-kuliner">Lihat Resep</button>
+                                <p>Merupakan salah satu jajanan khas yang sering di jumpai di kota Makassar. Jajanan ini merupakan sejenis gorengan berbahan dasar tepung terigu dan berisi ubi jalar,wortel dan bihun.</p>
+                                <a href="<?= base_url('home/recipes')?>" class="btn btn-warning text-white mt-3 btn-kuliner">Lihat Resep</a>
                         </div>
                     </div> 
                     </div>
@@ -121,8 +121,8 @@
                             </div>
                             <div class="col-sm-6">
                                 <h1>Jalangkote</h1>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur tempore, ut nulla qui tempora magni, quasi facilis atque nobis non accusantium, necessitatibus quisquam minima! Soluta sequi nisi odio similique saepe!</p>
-                                    <button type="button" class="btn btn-warning text-white mt-3 btn-kuliner">Lihat Resep</button>
+                                    <p>Merupakan salah satu jajanan khas yang sering di jumpai di kota Makassar. Jajanan ini merupakan sejenis gorengan berbahan dasar tepung terigu dan berisi ubi jalar,wortel dan bihun.</p>
+                                    <a href="<?= base_url('home/recipes')?>" class="btn btn-warning text-white mt-3 btn-kuliner">Lihat Resep</a>
                             </div>
                         </div>
                     </div>
@@ -133,8 +133,8 @@
                             </div>
                             <div class="col-sm-6">
                                 <h1>Jalangkote</h1>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur tempore, ut nulla qui tempora magni, quasi facilis atque nobis non accusantium, necessitatibus quisquam minima! Soluta sequi nisi odio similique saepe!</p>
-                                <button type="button" class="btn btn-warning text-white mt-3 btn-kuliner">Lihat Resep</button>
+                                <p>Merupakan salah satu jajanan khas yang sering di jumpai di kota Makassar. Jajanan ini merupakan sejenis gorengan berbahan dasar tepung terigu dan berisi ubi jalar,wortel dan bihun.</p>
+                                <a href="<?= base_url('home/recipes')?>" class="btn btn-warning text-white mt-3 btn-kuliner">Lihat Resep</a>
                             </div>
                         </div>
                     </div>

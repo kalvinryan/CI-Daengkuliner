@@ -56,6 +56,10 @@
 
 }
 
+.mt-kuliner{
+    margin-top: 150px;
+}
+
 .textseacrh{
     width: 400px !important;
 }
@@ -66,7 +70,12 @@
 .mt-x9{
     margin-top: -50px;
 }
-
+.image{
+    margin-top: 10px !important;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
 .btn-kuliner{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 5px;

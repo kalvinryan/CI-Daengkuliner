@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg navbar-dark">
   <a class="navbar-brand" href="#"><small>Logo</small></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -30,17 +30,29 @@
             </li>
         </ul>
 </nav>
-<div class="jumbotron bckrnjmb">
+
+<div class="jumbotron jumbo">
+    <div class="container mt-kuliner text-white">
+     <center >
+     <h1 class="display-1 my-4 text-warning font-header">Daeng Kuliner</h1>
+     </center>
+     <center class="textcenter">
+        <ps>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+     </center>
+    </div>
+</div>
+
+<div class="jumbotron bckrnjmb" style="height: 600px;">
     <div class="container">
     <center>
         <form class="form-inline">
-        <div class="form-group mx-auto mb-2">
-            <label for="inputPassword2" class="sr-only">Password</label>
-            <input type="search" class="form-control bordertext" id="search-input">
-            <button type="submit" class="btn btn-warning borderbtn mb-2 my-auto"><i class="fa fa-search"></i></button>
-        </div>
+            <div class="form-group mx-auto">
+                <input type="search" class="form-control bordertext textseacrh" id="search-input">
+                <button type="submit" class="btn btn-warning borderbtn mb-2 my-auto"><i class="fa fa-search"></i></button>
+            </div>
         </form>
-        <div id="googleMap" class="rounded" style="width:70%;height:380px;"></div>
+        <div id="googleMap" class="rounded shadow mt-3" style="width:70%;height:380px;"></div>
     </center>
     </div>
 </div>

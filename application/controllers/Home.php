@@ -26,9 +26,16 @@ class Home extends CI_Controller {
     }
     public function kota()
     {
-        $data['title'] = 'Pedagang Kuliner';
+        $data['title'] = 'Kota';
         $this->load->view('templates/header',$data);
         $this->load->view('home/kota');
+        $this->load->view('templates/footer');
+    }
+    public function recipes()
+    {
+        $data['title'] = 'Recipes';
+        $this->load->view('templates/header',$data);
+        $this->load->view('home/recipes');
         $this->load->view('templates/footer');
     }
 

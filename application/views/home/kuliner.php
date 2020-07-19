@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark">
   <a class="navbar-brand" href="#"><small>Logo</small></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -31,12 +31,24 @@
         </ul>
 </nav>
 
-<div class="jumbotron bckrnjmb1">
+<div class="jumbotron jumbo">
+    <div class="container mt-kuliner text-white">
+     <center >
+     <h1 class="display-1 my-4 text-warning font-header">Daeng Kuliner</h1>
+     </center>
+     <center class="textcenter">
+        <ps>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+     </center>
+    </div>
+</div>
+
+<div class="jumbotron bckrnjmb1" style="height: 600px;">
     <div class="container mt-x9">
         <center>
             <form class="form-inline">
-            <div class="form-group mx-auto mb-2">
-                <input type="search" class="form-control bordertext" id="search-input">
+            <div class="form-group mx-auto">
+                <input type="search" class="form-control bordertext textseacrh" id="search-input">
                 <button type="submit" class="btn btn-warning borderbtn mb-2 my-auto"><i class="fa fa-search"></i></button>
             </div>
             </form>
@@ -47,7 +59,7 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-sm-4">
-                    <img class="card-img-top" style="width: 18rem; height: 10rem;" src="<?= base_url('assets/')?>pictures/default-150x150.png" alt="Card image cap">
+                    <img class="card-img-top" style="width: 18rem; height: 10rem;" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Card image cap">
                 </div>
                 <div class="col-sm-6">
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>

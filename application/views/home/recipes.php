@@ -41,7 +41,12 @@
      </center>
     </div>
 </div>
-<div class="jumbotron bckrnjmb mb-2" style="height: 600px;">
+<div class="jumbotron bckrnjmb" style="height: 600px;">
+    <div class="container">
+        <center>
+            <h1 class="display-4 font-page">Recipes</h1>
+        </center>
+    </div>
     <div class="container">
         <center>
             <form class="form-inline">
@@ -57,7 +62,7 @@
                     <img class="card-img-top rounded-circle image" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Card image cap">
                     <div class="card-body">
                         <center>
-                            <a href=""><h3 class="card-title text-danger">Jalangkote</h5></a>
+                            <a href="<?= base_url('recipes')?>"><h3 class="card-title text-danger">Jalangkote</h3></a>
                             <p class="card-text">Luwu TImur</p>
                         </center>
                     </div>
@@ -68,7 +73,7 @@
                     <img class="card-img-top rounded-circle image" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Card image cap">
                     <div class="card-body">
                         <center>
-                            <a href=""><h3 class="card-title text-danger">Jalangkote</h5></a>
+                            <a href=""><h3 class="card-title text-danger">Jalangkote</h3></a>
                             <p class="card-text">Luwu TImur</p>
                         </center>
                     </div>
@@ -79,7 +84,7 @@
                     <img class="card-img-top rounded-circle image" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Card image cap">
                     <div class="card-body">
                         <center>
-                            <a href=""><h3 class="card-title text-danger">Jalangkote</h5></a>
+                            <a href=""><h3 class="card-title text-danger">Jalangkote</h3></a>
                             <p class="card-text">Luwu TImur</p>
                         </center>
                     </div>
@@ -90,12 +95,13 @@
                     <img class="card-img-top rounded-circle image" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Card image cap">
                     <div class="card-body">
                         <center>
-                            <a href=""><h3 class="card-title text-danger">Jalangkote</h5></a>
+                        <a href=""><h3 class="card-title text-danger">Jalangkote</h3></a>
                             <p class="card-text">Luwu TImur</p>
                         </center>
                     </div>
                 </div>
             </div>
         </div>
+        
     </div>
 </div>
