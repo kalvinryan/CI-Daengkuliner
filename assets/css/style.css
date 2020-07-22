@@ -96,7 +96,9 @@
 .font-page{
         font-family: 'Amita';
 }
-
+.borderkuliner{
+    border: 0px solid rgba(0,0,0,.125) !important;
+}
 
     #welcome
 	{

@@ -42,49 +42,52 @@
      </center>
     </div>
 </div>
+<main>
+    <div class="jumbotron bckrnjmb1 mb-5" style="height: 600px;">
+        <div class="container mt-x9">
+            <center>
+                <form class="form-inline">
+                <div class="form-group mx-auto">
+                    <input type="search" class="form-control bordertext textseacrh" id="search-input">
+                    <button type="submit" class="btn btn-warning borderbtn mb-2 my-auto"><i class="fa fa-search"></i></button>
+                </div>
+                </form>
+            </center>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card shadow-sm p-3 mb-5 bg-white borderkuliner">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <img class="card-img-top" style="width: 18rem; height: 10rem;" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Card image cap">
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="card shadow-sm p-3 mb-5 bg-white borderkuliner">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <img class="card-img-top" style="width: 18rem; height: 10rem;" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Card image cap">
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 
-<div class="jumbotron bckrnjmb1" style="height: 600px;">
-    <div class="container mt-x9">
-        <center>
-            <form class="form-inline">
-            <div class="form-group mx-auto">
-                <input type="search" class="form-control bordertext textseacrh" id="search-input">
-                <button type="submit" class="btn btn-warning borderbtn mb-2 my-auto"><i class="fa fa-search"></i></button>
-            </div>
-            </form>
-        </center>
-    </div>
-    <div class="container mt-5">
-        <div class="card shadow-sm p-3 mb-5 bg-white">
-        <div class="card-body">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img class="card-img-top" style="width: 18rem; height: 10rem;" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Card image cap">
-                </div>
-                <div class="col-sm-6">
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <nav aria-label="Page navigation example">
-                    <ul class="pagination">
-                        <li class="page-item"><a class="page-link" href="#">Sebelumnya</a></li>
-                    </ul>
-                    </nav>
-                </div>
-                <div class="col-sm-6">
-                    <nav aria-label="Page navigation example">
-                    <ul class="pagination float-right d-inline-block">
-                        <li class="page-item"><a class="page-link" href="#">Selanjutnya</a></li>
-                    </ul>
-                    </nav>
-                </div>
-            </div> 
-        </div>
-    </div>
-</div>
 </div>
 
