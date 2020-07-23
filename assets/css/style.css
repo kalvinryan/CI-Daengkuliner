@@ -137,15 +137,6 @@ html {
         margin-bottom: -45px;
 }
 
-.conta .card{
-    opacity: 0;
-    transition: .3s;
-    transform: translate(0, -40px);
-}
-.conta .card.showup{
-    opacity: 1;
-    transform: translate(0,0);
-}
 
 .kategori .examp{
     opacity: 0;
