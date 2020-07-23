@@ -100,7 +100,11 @@
     border: 0px solid rgba(0,0,0,.125) !important;
 }
 
-    #welcome
+html {
+    scroll-behavior: smooth;
+}
+  
+#welcome
 	{
 		position: relative;
 		padding: 4em 0em 4em 0em;
@@ -108,27 +112,47 @@
 		background-size: cover;
         text-align: center;
         /* height: 400px; */
-	}
+}
 	
-	#welcome .containers
+#welcome .containers
 	{
 		width: 1000px;
 		padding: 0px 100px;
 		margin-top: 100px;
-	}
+}
 	
-    .containers
+.containers
 	{
 		overflow: hidden;
 		margin: 0em auto;
 		width: 1200px;
-    }
-    #three-column .title .byline
+}
+#three-column .title .byline
 	{
 		text-align: center;
 		/* color: rgba(0,0,0,.5); */
-    }
-    .pad{
+}
+.pad{
         margin-top: 4px;
         margin-bottom: -45px;
-    }
+}
+
+.conta .card{
+    opacity: 0;
+    transition: .3s;
+    transform: translate(0, -40px);
+}
+.conta .card.showup{
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.kategori .examp{
+    opacity: 0;
+    transition: .3s;
+    transform: translate(0, -40px);
+}
+.kategori .examp.showup2{
+    opacity: 1;
+    transform: translate(0,0);
+}

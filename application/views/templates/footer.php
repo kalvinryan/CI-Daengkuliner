@@ -19,5 +19,7 @@
     <script src="<?= base_url('assets/')?>bootstrap/js/popper.min.js"></script>
     <script src="<?= base_url('assets/')?>bootstrap/js/bootstrap.min.js"></script>
     <script src="<?= base_url('assets/')?>fontawesome/js/all.min.js"></script>
+    <script src="<?= base_url('assets/')?>js/style.js"></script>
+
   </body>
 </html>

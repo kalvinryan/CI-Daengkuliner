@@ -7,16 +7,16 @@
         <div class="collapse navbar-collapse mt-7" id="navbarNav">
             <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('home')?>">BERANDA <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#section1">BERANDA <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">KATEGORI</a>
+                <a class="nav-link" href="#section2">KATEGORI</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">RESEP</a>
+                <a class="nav-link" href="#section3">RESEP</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">TENTANG</a>
+                <a class="nav-link" href="#section4">TENTANG</a>
             </li>
             </ul>
         </div>
@@ -31,7 +31,7 @@
         </ul>
 </nav>
 
-<div class="jumbotron jumbo">
+<div class="jumbotron jumbo" id="section1">
     <div class="container mt-8 text-white">
      <center >
      <h1 class="display-1 my-4 text-warning font-header">Daeng Kuliner</h1>
@@ -49,7 +49,7 @@
     </div>
 </div>
 
-<div class="jumbotron bckrnjmbimg">
+<div class="jumbotron bckrnjmbimg kategori" id="section2">
     <div class="container textkategori">
     <center>
         <h1 class="display-4 my-4 font-page">Kategori</h1>
@@ -57,20 +57,26 @@
         <div class="form-group mx-auto mb-2">
             <div class="row">
                 <div class="col-sm-4">
-                    <a href="<?= base_url('home/kuliner')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto shadow p-3 mb-5 bg-white" >
-                        <img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt="">
-                    </a>
-                    <label for="" class="mt-3">Kuliner Tradisional</label>
-                </div>
-                <div class="col-sm-4">
-                        <a href="<?= base_url('home/maps')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto shadow p-3 mb-5 bg-white">
+                    <div class="examp">
+                        <a href="<?= base_url('home/kuliner')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto shadow p-3 mb-5 bg-white" >
                             <img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt="">
                         </a>
-                     <label for="" class="mt-3">Pedagang Kuliner</label>
+                        <label for="" class="mt-3">Kuliner Tradisional</label>
+                    </div>
                 </div>
                 <div class="col-sm-4">
-                    <a href="<?= base_url('home/kota')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto shadow p-3 mb-5 bg-white"><img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt=""></a>
-                    <label for="" class="mt-3">Kabupaten/Kota</label>
+                    <div class="examp">
+                        <a href="<?= base_url('home/maps')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto shadow p-3 mb-5 bg-white">
+                                <img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt="">
+                            </a>
+                        <label for="" class="mt-3">Pedagang Kuliner</label>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="examp">
+                        <a href="<?= base_url('home/kota')?>" class="btn rounded-circle borderbtn2 mb-2 my-auto shadow p-3 mb-5 bg-white"><img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt=""></a>
+                        <label for="" class="mt-3">Kabupaten/Kota</label>
+                    </div>
                 </div>
             </div>
         </div>
@@ -80,7 +86,7 @@
     </div>
 </div>
 
-<div class="jumbotron">
+<div class="jumbotron" id="section3">
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
@@ -153,7 +159,7 @@
     </div>
 </div>
 
-<div class="jumbotron jumbotron-fluid bckrnjmb">
+<div class="jumbotron jumbotron-fluid bckrnjmb" id="section4">
   <div class="container">
     <center>
         <h1 class="display-4 font-page">About Us</h1>
