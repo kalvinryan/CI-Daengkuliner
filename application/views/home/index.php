@@ -10,13 +10,13 @@
         <a class="nav-link" href="#section1">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item tombol">
-        <a class="nav-link" href="#section2">SEARCH BY</a>
+        <a class="nav-link" href="#searchby">SEARCH BY</a>
       </li>
       <li class="nav-item tombol">
-        <a class="nav-link" href="#">RECIPES</a>
+        <a class="nav-link" href="#recipes">RECIPES</a>
       </li>
       <li class="nav-item tombol">
-        <a class="nav-link" href="#">ABOUT US</a>
+        <a class="nav-link" href="#aboutus">ABOUT US</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -26,7 +26,7 @@
   </div>
 </nav>
 
-<div class="" id="section1">
+<div class="">
     <div class="row" style="height: 700px;">
         <div class="col-sm-6 mt-8">
             <div class="container text-white">    
@@ -50,7 +50,7 @@
     
 </div>
 
-<div class="jumbotron bckrnjmbimg kategori" id="section2">
+<div class="jumbotron bckrnjmbimg kategori" id="searchby">
     <div class="container textkategori">
     <center>
         <h1 class="display-4 my-4 font-page">Search By</h1>
@@ -87,7 +87,7 @@
     </div>
 </div>
 
-<div class="jumbotron bckrnjmb2" id="section3">
+<div class="jumbotron bckrnjmb2" id="recipes">
     <div class="container" style="margin-top: -100px;">
         <div class="row">
             <div class="col-sm-4">
@@ -165,7 +165,7 @@
     </div>
 </div>
 
-<div class="jumbotron jumbotron-fluid bckrnjmb" id="section4">
+<div class="jumbotron jumbotron-fluid bckrnjmb" id="aboutus">
   <div class="container">
     <center>
         <h1 class="display-4 font-page">About Us</h1>
