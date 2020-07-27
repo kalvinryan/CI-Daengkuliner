@@ -32,7 +32,7 @@
             </ul>
  </nav>
 
-    <div class="jumbotron jumbo">
+    <div class="jumbotron jumbo2">
         <div class="container mt-kuliner text-white">
         <center >
         <h1 class="display-1 my-4 text-warning font-header">Daeng Kuliner</h1>
@@ -69,7 +69,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-3">
-                                <div class="card rounded shadow">
+                                <div class="card rounded shadow rowLandingElement" data-duration="500">
                                     <img class="card-img-top rounded-circle image" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Card image cap">
                                     <div class="card-body">
                                         <center>

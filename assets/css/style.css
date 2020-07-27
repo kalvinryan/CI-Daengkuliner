@@ -6,13 +6,27 @@
 }
 
 .jumbo{
-    margin-top: -10rem;
+    margin-top: -9rem;
+    background-image: url('../pictures/header.png');
+    background-size: 900px 600px;
+    background-repeat: no-repeat;
+    height:900px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.jumbo2{
+    margin-top: -9rem;
     background-image: url('../pictures/header.png');
     background-size: cover;
-    height: 815px;
+    height:850px;
+    
 }
+
 .mt-8{
-    margin-top: 6rem;
+    margin-top: 60px !important;
 }
 .textcenter
 {
@@ -28,14 +42,18 @@
 }
 
 .bordertext{
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    background-color: transparent;
+}
+.bordertext2{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: transparent;
 }
 .borderbtn2{
-    height: 100px;
-    width: 100px;
+    height:200px;
+    width: 200px;
 }
 
 .bckrnjmb{
@@ -51,9 +69,15 @@
     height: 400px;
 
 }
+.bckrnjmb2{
+    margin-top: 100px;
+    background-image: url('../pictures/Untitled-1.png');
+    background-size: cover;
+    height: 400px;
+
+}
 .bckrnjmbimg{
     background-image: url('../pictures/Untitled-1.png');
-
 }
 
 .mt-kuliner{
@@ -83,15 +107,15 @@
     border-bottom-right-radius: 15px;
 }
 @font-face{
-    font-family: 'Great_Vibes';
-    src: url('../font/Great_Vibes/GreatVibes-Regular.ttf');
+    font-family: 'Kaushan_Script';
+    src: url('../font/Kaushan_Script/KaushanScript-Regular.ttf');
 }
 @font-face{
     font-family: 'Amita';
     src: url('../font/Amita/Amita-Regular.ttf');
 }
 .font-header{
-    font-family: 'Great_Vibes';
+    font-family: 'Kaushan_Script';
 }
 .font-page{
         font-family: 'Amita';
@@ -147,3 +171,10 @@ html {
     opacity: 1;
     transform: translate(0,0);
 }
+.tombol:hover{
+    border-radius:20px;
+    color:#FBD465;
+    background-color:#FBD465;
+    transition:2s;
+    border: 5px #FBD465;
+    }

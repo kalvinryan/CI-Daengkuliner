@@ -30,7 +30,7 @@
             </li>
         </ul>
 </nav>
-<div class="jumbotron jumbo">
+<div class="jumbotron jumbo2">
     <div class="container mt-kuliner text-white">
      <center >
      <h1 class="display-1 my-4 text-warning font-header">Daeng Kuliner</h1>
