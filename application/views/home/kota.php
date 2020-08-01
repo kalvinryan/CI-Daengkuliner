@@ -8,7 +8,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active tombol">
-        <a class="nav-link" href="#section1">HOME <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?= base_url('home')?>">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item tombol">
         <a class="nav-link" href="#searchby">SEARCH BY</a>
