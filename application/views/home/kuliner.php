@@ -41,7 +41,7 @@
             <center>
                 <form class="form-inline">
                 <div class="form-group mx-auto">
-                    <input type="search" class="form-control bordertext textseacrh" id="search-input">
+                    <input type="search" class="form-control bordertext textseacrh" id="search-input" placeholder="Search Kuliner...">
                     <button type="submit" class="btn btn-warning borderbtn mb-2 my-auto"><i class="fa fa-search"></i></button>
                 </div>
                 </form>
@@ -54,11 +54,15 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-sm-4">
-                                    <img class="card-img-top" style="width: 18rem; height: 10rem;" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Card image cap">
+                                <img class="card-img-top rounded-circle image" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Card image cap">
                                 </div>
                                 <div class="col-sm-6">
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                </div>
+                                <h1 class="text-danger">Jalangkote</h1>
+                                    <h6>Jalkot Bu Enny</h6>
+                                    <p class="card-text"><em> Permandian Alam Barombong No.9</em></p>
+                                    <label for="" class="text-muted">Harga : Rp.3000</label><br>
+                                    <label for="" class="text-muted">Buka  : 07.00 - 18.00 WITA</label>
+                               </div>
                             </div>
                         </div>
                     </div>
@@ -68,10 +72,14 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-sm-4">
-                                    <img class="card-img-top" style="width: 18rem; height: 10rem;" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Card image cap">
+                                <img class="card-img-top rounded-circle image" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Card image cap">
                                 </div>
                                 <div class="col-sm-6">
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <h1 class="text-danger">Jalangkote</h1>
+                                    <h6>Jalkot Bu Enny</h6>
+                                    <p class="card-text"><em> Permandian Alam Barombong No.9</em></p>
+                                    <label for="" class="text-muted">Harga : Rp.3000</label><br>
+                                    <label for="" class="text-muted">Buka  : 07.00 - 18.00 WITA</label>
                                 </div>
                             </div>
                         </div>
