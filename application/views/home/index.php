@@ -27,12 +27,11 @@
 </nav>
 
 <div class="">
-    <div class="row" style="height: 700px;">
-        <div class="col-sm-6 mt-8">
+    <div class="row" style="height: 800px;">
+        <div class="col-sm-8 mt-8 jumbob">
             <div class="container text-white">    
                 <center>
-                  <h1 class="display-4 my-4 text-danger font-header">Daeng Kuliner</h1>
-                  <div class="input-group mb-3" style="margin-top: 300px; width:500px;">
+                  <div class="input-group mb-3" style="margin-top: 540px; width:500px;margin-left:-90px;">
                     <div class="input-group-prepend">
                         <span class="input-group-text bordertext"><i class="fa fa-map-marker"></i></span>
                     </div>
@@ -44,7 +43,7 @@
                 </center> 
             </div>
         </div>
-        <div class="col-sm-6 jumbo">
+        <div class="col-sm-4 jumbo">
         </div>
     </div>
     
@@ -59,24 +58,33 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="examp">
-                        <a href="<?= base_url('home/kuliner')?>" class="btn rounded borderbtn2 mb-2 my-auto shadow p-3 mb-5 bg-white" >
-                            <img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt="">
-                        </a>
-                        <label for="" class="mt-3">Kuliner Tradisional</label>
+                        <div class="card shadow" style="height: 260px;">
+                            <img src="<?= base_url('assets/')?>pictures/main1/BUTTON ICON - Search by culinary.png" style="height: 160px; width: 160px; margin:auto;" alt="">
+                            <div class="card-body" >
+                            
+                            <a href="<?= base_url('home/kuliner')?>" class="btn btn-warning mt-3 borderbtn">Kuliner Tradisional</a>
+                            </div>
+                        </div>    
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="examp">
-                        <a href="<?= base_url('home/maps')?>" class="btn rounded borderbtn2 mb-2 my-auto shadow p-3 mb-5 bg-white">
-                                <img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt="">
-                            </a>
-                        <label for="" class="mt-3">Pedagang Kuliner</label>
+                        <div class="card shadow">
+                            <img src="<?= base_url('assets/')?>pictures/main1/BUTTON ICON - Search by location.png" style="height: 160px; width: 160px; margin:auto;" alt="">
+                            <div class="card-body">
+                                <a href="<?= base_url('home/maps')?>" class="btn btn-warning mt-3 borderbtn" style="margin-left: -11px;">Kuliner Pedagang Kuliner</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="examp">
-                        <a href="<?= base_url('home/kota')?>" class="btn rounded borderbtn2 mb-2 my-auto shadow p-3 mb-5 bg-white"><img src="<?= base_url('assets/')?>pictures/marker_50px.png" alt=""></a>
-                        <label for="" class="mt-3">Kabupaten/Kota</label>
+                        <div class="card shadow">
+                            <img src="<?= base_url('assets/')?>pictures/main1/BUTTON ICON - Search by city.png" style="height: 160px; width: 160px; margin:auto;" alt="">
+                            <div class="card-body" >
+                                <a href="<?= base_url('home/kota')?>" class="btn btn-warning mt-3 borderbtn" style="margin-left: -10px; width: 200px;">Kuliner Kabupaten/Kota</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -100,72 +108,71 @@
              <hr class="my-4">
             </div>
         </div>
-        <div class="card rounded shadow">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <img class="d-block w-100 rounded" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="First slide">
-                                </div>
-                                <div class="col-sm-6">
-                                        <h1>Jalangkote</h1>
-                                        <p>Merupakan salah satu jajanan khas yang sering di jumpai di kota Makassar. Jajanan ini merupakan sejenis gorengan berbahan dasar tepung terigu dan berisi ubi jalar,wortel dan bihun.</p>
-                                        <a href="<?= base_url('home/recipes')?>" class="btn btn-warning text-white mt-3 btn-kuliner">Lihat Resep</a>
-                                </div>
-                            </div> 
-                            </div>
-                            <div class="carousel-item">
+         <div class="card rounded shadow" style="background: #2f2f2f;">
+                <div class="card-body">
+                    <div class="row text-white bckrnjmbimg2">
+                        <div class="col-sm-12">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
                                 <div class="row">
                                     <div class="col-sm-6">
-                                        <img class="d-block w-100" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Second slide">
+                                        <img class="d-block w-100 rounded" src="<?= base_url('assets/')?>pictures/main2/Sample image - Coto Makasar.png" alt="First slide">
                                     </div>
                                     <div class="col-sm-6">
-                                        <h1>Jalangkote</h1>
+                                            <h1>Jalangkote</h1>
                                             <p>Merupakan salah satu jajanan khas yang sering di jumpai di kota Makassar. Jajanan ini merupakan sejenis gorengan berbahan dasar tepung terigu dan berisi ubi jalar,wortel dan bihun.</p>
                                             <a href="<?= base_url('home/recipes')?>" class="btn btn-warning text-white mt-3 btn-kuliner">Lihat Resep</a>
                                     </div>
+                                </div> 
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <img class="d-block w-100" src="<?= base_url('assets/')?>pictures/main2/Sample image - Coto Makasar.png" alt="Second slide">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <h1>Jalangkote</h1>
+                                                <p>Merupakan salah satu jajanan khas yang sering di jumpai di kota Makassar. Jajanan ini merupakan sejenis gorengan berbahan dasar tepung terigu dan berisi ubi jalar,wortel dan bihun.</p>
+                                                <a href="<?= base_url('home/recipes')?>" class="btn btn-warning text-white mt-3 btn-kuliner">Lihat Resep</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <img class="d-block w-100" src="<?= base_url('assets/')?>pictures/main2/Sample image - Coto Makasar.png" alt="Third slide">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <h1>Jalangkote</h1>
+                                            <p>Merupakan salah satu jajanan khas yang sering di jumpai di kota Makassar. Jajanan ini merupakan sejenis gorengan berbahan dasar tepung terigu dan berisi ubi jalar,wortel dan bihun.</p>
+                                            <a href="<?= base_url('home/recipes')?>" class="btn btn-warning text-white mt-3 btn-kuliner">Lihat Resep</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <img class="d-block w-100" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Third slide">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <h1>Jalangkote</h1>
-                                        <p>Merupakan salah satu jajanan khas yang sering di jumpai di kota Makassar. Jajanan ini merupakan sejenis gorengan berbahan dasar tepung terigu dan berisi ubi jalar,wortel dan bihun.</p>
-                                        <a href="<?= base_url('home/recipes')?>" class="btn btn-warning text-white mt-3 btn-kuliner">Lihat Resep</a>
-                                    </div>
-                                </div>
-                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        
+         </div>        
     </div>
 </div>
 
-<div class="jumbotron jumbotron-fluid bckrnjmb" id="aboutus">
+<div class="jumbotron jumbotron-fluid bckrnjmb" id="aboutus" style="margin-top: 200px;">
   <div class="container">
     <center>
         <h1 class="display-4 font-page">About Us</h1>

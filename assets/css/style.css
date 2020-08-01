@@ -6,16 +6,13 @@
 }
 
 .jumbo{
-    margin-top: -9rem;
-    background-image: url('../pictures/header.png');
-    background-size: 900px 600px;
+    background-image: url('../pictures/Header/header-rightside.png');
     background-repeat: no-repeat;
-    height:900px;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
+}
+.jumbob{
+    margin-top: -9rem;
+    background-image: url('../pictures/Header/header2.png');
+    background-repeat: no-repeat;
 }
 .jumbo2{
     margin-top: -9rem;
@@ -37,7 +34,7 @@
     margin-left: 5px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    border-top-left-radius: 0px;
+    border-top-left-radius: 15px;
     border-bottom-left-radius: 0px;
 }
 
@@ -57,27 +54,31 @@
 }
 
 .bckrnjmb{
-    background-image: url('../pictures/Untitled-1.png');
+    background-image: url('../pictures/main2/Untitled-1.png');
     background-size: cover;
-    height: 400px;
+    height: 500px;
 
 }
 .bckrnjmb1{
     margin-top: 100px;
-    background-image: url('../pictures/Untitled-1.png');
+    background-image: url('../pictures/main2/Untitled-1.png');
     background-size: cover;
     height: 400px;
 
 }
 .bckrnjmb2{
-    margin-top: 100px;
-    background-image: url('../pictures/Untitled-1.png');
+    margin-top: 150px;
+    background-image: url('../pictures/main2/Untitled-1.png');;
     background-size: cover;
     height: 400px;
 
 }
 .bckrnjmbimg{
-    background-image: url('../pictures/Untitled-1.png');
+    background-image: url('../pictures/main2/Untitled-1.png');
+    height: 400px;
+}
+.bckrnjmbimg2{
+    background-image: url('../pictures/main2/Pernakpernik.png');
 }
 
 .mt-kuliner{
@@ -132,7 +133,7 @@ html {
 	{
 		position: relative;
 		padding: 4em 0em 4em 0em;
-        background-image: url('../pictures/footer.png');
+        background-image: url('../pictures/Footer/footer.png');
 		background-size: cover;
         text-align: center;
         /* height: 400px; */
@@ -178,3 +179,6 @@ html {
     transition:2s;
     border: 5px #FBD465;
     }
+html {
+        scroll-behavior: smooth;
+      }
