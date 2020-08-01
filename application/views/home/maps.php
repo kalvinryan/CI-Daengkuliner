@@ -41,7 +41,7 @@
     <center>
         <form class="form-inline">
             <div class="form-group mx-auto">
-                <input type="search" class="form-control bordertext textseacrh" id="search-input">
+                <input type="search" class="form-control bordertext textseacrh" id="search-input" placeholder="Search Location...">
                 <button type="submit" class="btn btn-warning borderbtn mb-2 my-auto"><i class="fa fa-search"></i></button>
             </div>
         </form>
