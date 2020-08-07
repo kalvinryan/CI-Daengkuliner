@@ -56,7 +56,7 @@
 .bckrnjmb{
     background-image: url('../pictures/main2/Untitled-1.png');
     background-size: cover;
-    height: 500px;
+    height: 600px;
 
 }
 .bckrnjmb1{
@@ -75,7 +75,7 @@
 }
 .bckrnjmbimg{
     background-image: url('../pictures/main2/Untitled-1.png');
-    height: 400px;
+    height: 600px;
 }
 .bckrnjmbimg2{
     background-image: url('../pictures/main2/Pernakpernik.png');
@@ -131,7 +131,7 @@ html {
   
 #welcome
 	{
-		position: relative;
+		margin-top: 200px;
 		padding: 4em 0em 4em 0em;
         background-image: url('../pictures/Footer/footer.png');
 		background-size: cover;
@@ -163,15 +163,25 @@ html {
 }
 
 
+.kuliner .examp{
+    opacity: 0;
+    transition: .6s;
+    transform: translate(0, -40px);
+}
+.kuliner .examp.showup2{
+    opacity: 1;
+    transform: translate(0,0);
+}
 .kategori .examp{
     opacity: 0;
-    transition: .3s;
+    transition: .5s;
     transform: translate(0, -40px);
 }
 .kategori .examp.showup2{
     opacity: 1;
     transform: translate(0,0);
 }
+
 .tombol:hover{
     border-radius:20px;
     color:#FBD465;
@@ -179,6 +189,8 @@ html {
     transition:2s;
     border: 5px #FBD465;
     }
+
+
 html {
         scroll-behavior: smooth;
       }

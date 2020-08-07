@@ -6,7 +6,6 @@ class Home extends CI_Controller {
           $data['title'] = 'Daeng Kuliner';
           $this->load->view('templates/header',$data);
           $this->load->view('home/index');
-          $this->load->view('templates/footer');
     }
     
     public function kuliner()
@@ -14,7 +13,6 @@ class Home extends CI_Controller {
         $data['title'] = 'Kuliner Tradisional';
         $this->load->view('templates/header',$data);
         $this->load->view('home/kuliner');
-        $this->load->view('templates/footer');
     }
 
     public function maps()

@@ -26,13 +26,13 @@ $(document).ready(function(){
 //   Parallax
 $(window).scroll(function(){
   var wScroll = $(this).scrollTop();
-  if(wScroll > $('.kategori').offset().top - 400){
-      $('.kategori .examp').each(function(i){
+  if(wScroll > $('.kuliner').offset().top - 400){
+      console.log('ok')
+      $('.kuliner .examp').each(function(i){
           setTimeout(function() {
-              $('.kategori .examp').eq(i).addClass('showup2')
+              $('.kuliner .examp').eq(i).addClass('showup2')
           }, 600 * (i+1));
       })
-      
   }
 
 });
