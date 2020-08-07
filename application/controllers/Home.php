@@ -27,7 +27,6 @@ class Home extends CI_Controller {
         $data['title'] = 'Kota';
         $this->load->view('templates/header',$data);
         $this->load->view('home/kota');
-        $this->load->view('templates/footer');
     }
     public function recipes()
     {

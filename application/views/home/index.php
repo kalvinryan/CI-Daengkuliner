@@ -1,32 +1,32 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="<?= base_url('home')?>">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-        <li class="nav-item active tombol">
-            <a class="nav-link" href="#section1">HOME <span class="sr-only">(current)</span></a>
+        <li class="nav-item tombol">
+            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item tombol">
-            <a class="nav-link" href="#searchby">SEARCH BY</a>
+            <a class="nav-link" href="#SEARCH">SEARCH BY</a>
         </li>
         <li class="nav-item tombol">
-            <a class="nav-link" href="#recipes">RECIPES</a>
+            <a class="nav-link" href="">RECIPES</a>
         </li>
         <li class="nav-item tombol">
-            <a class="nav-link" href="#aboutus">ABOUT US</a>
+            <a class="nav-link" href="">ABOUT US</a>
         </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
+        <form class="form-inline my-2 my-lg-0 buttoncu">
             <button class="btn btn-outline-light btn-sm my-2 my-sm-0 mr-2" type="submit">Sign up<span class="ml-1"><i class="fa fa-user"></i></span></button>
             <a href="#" class="badge my-2 my-sm-0" type="submit"><i class="fas fa-search" style="color:#fff"></i></a>
         </form>
     </div>
     </nav>
 
-    <div class="">
+    <div>
         <div class="row" style="height: 800px;">
             <div class="col-sm-8 mt-8 jumbob">
                 <div class="container text-white">    
@@ -49,7 +49,7 @@
         
     </div>
 
-    <div class="jumbotron bckrnjmbimg kategori" id="searchby">
+    <div class="jumbotron bckrnjmbimg kategori" id="SEARCH">
         <div class="container textkategori">
         <center>
             <h1 class="display-4 my-4 font-page">Search By</h1>
@@ -176,7 +176,7 @@
     <div class="container">
         <center>
             <h1 class="display-4 font-page">About Us</h1>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum asperiores culpa eum est quibusdam autem consequuntur ducimus pariatur? Consequatur accusantium earum dignissimos fuga assumenda culpa a deleniti qui excepturi temporibus.</p>
+            <p class="lead pAbout">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum asperiores culpa eum est quibusdam autem consequuntur ducimus pariatur? Consequatur accusantium earum dignissimos fuga assumenda culpa a deleniti qui excepturi temporibus.</p>
         </center>
     </div>
     </div>

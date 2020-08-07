@@ -31,8 +31,26 @@ $(window).scroll(function(){
           setTimeout(function() {
               $('.kategori .examp').eq(i).addClass('showup2')
           }, 600 * (i+1));
-      })
-      
+      })      
+  }
+
+  // if(tombol == 0){
+  //   $('.btn-outline-light').addClass('Cmuncul')
+  // }
+  // else if(tombol  >= 780){
+  //   $('.btn-outline-light').addClass('Bmuncul')
+  // }
+  // else{
+  //   $('.btn-outline-light').addClass('Bmuncul')
+  // }
+
+  if(wScroll > $('.pAbout').offset().top - 600){
+    $('.pAbout').each(function(i){
+      setTimeout(function() {
+        $('.pAbout').eq(i).addClass('pMuncul')
+    }, 600 * (i+1));
+    
+    })      
   }
 
 });

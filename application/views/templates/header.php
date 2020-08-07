@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="<?= base_url('assets/')?>bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= base_url('assets/')?>fontawesome/css/all.min.css">
     <link rel="stylesheet" href="<?= base_url('assets/')?>css/style.css">
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
     <title><?= $title?></title>
   </head>
   <body>

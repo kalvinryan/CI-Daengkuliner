@@ -13,6 +13,17 @@
     margin-top: -9rem;
     background-image: url('../pictures/Header/header2.png');
     background-repeat: no-repeat;
+    
+}
+
+.pAbout{
+    opacity: 0;
+    transform: translate(-50px, 0);
+    transition: 1s;
+}
+.pAbout.pMuncul{
+    opacity: 1;
+    transform: translate(0,0);
 }
 .jumbo2{
     margin-top: -9rem;
@@ -75,7 +86,7 @@
 }
 .bckrnjmbimg{
     background-image: url('../pictures/main2/Untitled-1.png');
-    height: 600px;
+    height: 560px;
 }
 .bckrnjmbimg2{
     background-image: url('../pictures/main2/Pernakpernik.png');
@@ -162,6 +173,24 @@ html {
         margin-bottom: -45px;
 }
 
+/* .cKota .examp{
+    opacity: 0;
+    transition: 0.3s;
+    transform: translate(0, -40px);
+}
+.cKota .examp.showupku{
+    opacity: 1;
+    transform: translate(0,0);
+} */
+.cKota{
+    opacity: 0;
+    transform: translate(-50px, 0);
+    transition: 2s;
+}
+.cKota.cMuncul{
+    opacity: 1;
+    transform: translate(0,0);
+}
 
 .kuliner .examp{
     opacity: 0;
@@ -189,7 +218,6 @@ html {
     transition:2s;
     border: 5px #FBD465;
     }
-
 
 html {
         scroll-behavior: smooth;
