@@ -72,7 +72,7 @@
                             <div class="card shadow">
                                 <img src="<?= base_url('assets/')?>pictures/main1/BUTTON ICON - Search by location.png" style="height: 160px; width: 160px; margin:auto;" alt="">
                                 <div class="card-body">
-                                    <a href="<?= base_url('home/maps')?>" class="btn btn-warning mt-3 borderbtn" style="margin-left: -11px;">Kuliner Pedagang Kuliner</a>
+                                    <a href="<?= base_url('home/maps')?>" class="btn btn-warning mt-3 borderbtn" style="margin-left: 0px;">Pedagang Terdekat</a>
                                 </div>
                             </div>
                         </div>
@@ -82,7 +82,7 @@
                             <div class="card shadow">
                                 <img src="<?= base_url('assets/')?>pictures/main1/BUTTON ICON - Search by city.png" style="height: 160px; width: 160px; margin:auto;" alt="">
                                 <div class="card-body" >
-                                    <a href="<?= base_url('home/kota')?>" class="btn btn-warning mt-3 borderbtn" style="margin-left: -10px; width: 200px;">Kuliner Kabupaten/Kota</a>
+                                    <a href="<?= base_url('home/kota')?>" class="btn btn-warning mt-3 borderbtn" style="width: 160px;">Kabupaten/Kota</a>
                                 </div>
                             </div>
                         </div>
