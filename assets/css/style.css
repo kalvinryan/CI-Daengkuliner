@@ -5,15 +5,11 @@
     margin-top: 6rem !important;
 }
 
-.jumbo{
-    background-image: url('../pictures/Header/header-rightside.png');
-    background-repeat: no-repeat;
-}
 .jumbob{
-    margin-top: -9rem;
-    background-image: url('../pictures/Header/header2.png');
-    background-repeat: no-repeat;
     
+    background-image: url('../pictures/Header/6.png');
+    background-size: cover;
+    height: 780px;
 }
 
 .pAbout{
@@ -86,7 +82,7 @@
 }
 .bckrnjmbimg{
     background-image: url('../pictures/main2/Untitled-1.png');
-    height: 560px;
+    height: 600px;
 }
 .bckrnjmbimg2{
     background-image: url('../pictures/main2/Pernakpernik.png');
@@ -135,30 +131,22 @@
 .borderkuliner{
     border: 0px solid rgba(0,0,0,.125) !important;
 }
-
-html {
-    scroll-behavior: smooth;
-}
   
-#welcome
-	{
+#welcome{
 		margin-top: 200px;
 		padding: 4em 0em 4em 0em;
         background-image: url('../pictures/Footer/footer.png');
 		background-size: cover;
         text-align: center;
-        /* height: 400px; */
 }
 	
-#welcome .containers
-	{
+#welcome .containers{
 		width: 1000px;
 		padding: 0px 100px;
 		margin-top: 100px;
 }
 	
-.containers
-	{
+.containers{
 		overflow: hidden;
 		margin: 0em auto;
 		width: 1200px;
@@ -173,15 +161,6 @@ html {
         margin-bottom: -45px;
 }
 
-/* .cKota .examp{
-    opacity: 0;
-    transition: 0.3s;
-    transform: translate(0, -40px);
-}
-.cKota .examp.showupku{
-    opacity: 1;
-    transform: translate(0,0);
-} */
 .cKota{
     opacity: 0;
     transform: translate(-50px, 0);
@@ -219,6 +198,3 @@ html {
     border: 5px #FBD465;
     }
 
-html {
-        scroll-behavior: smooth;
-      }

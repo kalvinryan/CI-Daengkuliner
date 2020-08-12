@@ -1,6 +1,6 @@
  
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-  <a class="navbar-brand" href="<?= base_url('home')?>">Navbar</a>
+  <a class="navbar-brand" href="<?= base_url('home')?>"><img src="<?= base_url('assets/')?>pictures/logo/Daeng Kuliner.png" width="50" height="55" alt=""></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -14,15 +14,10 @@
   </div>
 </nav>
 
-<div class="">
-    <div class="row" style="height: 800px;">
-        <div class="col-sm-8 mt-8 jumbob">
+     <div class="jumbotron jumbob">
+        <div class="container text-white">
         </div>
-        <div class="col-sm-4 jumbo">
-        </div>
-    </div>
-    
-</div>
+     </div>
             <main>
                 <div class="jumbotron bckrnjmb1 mb-5" style="height: 600px;">
                     <div class="container mt-x9">

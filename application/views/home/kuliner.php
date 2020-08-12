@@ -13,14 +13,9 @@
     </div>
     </nav>
 
-    <div class="">
-        <div class="row" style="height: 800px;">
-            <div class="col-sm-8 mt-8 jumbob">
-            </div>
-            <div class="col-sm-4 jumbo">
-            </div>
+    <div class="jumbotron jumbob">
+        <div class="container text-white">
         </div>
-        
     </div>
     <main>
         <div class="jumbotron bckrnjmb1 mb-5" style="height: 700px;">

@@ -6,6 +6,5 @@ class Recipes extends CI_Controller {
           $data['title'] = 'Recipes';
           $this->load->view('templates/header',$data);
           $this->load->view('recipes/index');
-          $this->load->view('templates/footer');
     }
 }

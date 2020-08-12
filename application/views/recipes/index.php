@@ -9,15 +9,6 @@
       <li class="nav-item active tombol">
         <a class="nav-link" href="<?= base_url('home')?>">HOME <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item tombol">
-        <a class="nav-link" href="#searchby">SEARCH BY</a>
-      </li>
-      <li class="nav-item tombol">
-        <a class="nav-link" href="#recipes">RECIPES</a>
-      </li>
-      <li class="nav-item tombol">
-        <a class="nav-link" href="#aboutus">ABOUT US</a>
-      </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
         <button class="btn btn-outline-light btn-sm my-2 my-sm-0 mr-2" type="submit">Sign up<span class="ml-1"><i class="fa fa-user"></i></span></button>
@@ -26,16 +17,11 @@
   </div>
 </nav>
 
-<div class="">
-    <div class="row" style="height: 800px;">
-        <div class="col-sm-8 mt-8 jumbob">
-        </div>
-        <div class="col-sm-4 jumbo">
-        </div>
+<div class="jumbotron jumbob">
+    <div class="container text-white">
     </div>
-    
 </div>
-<div class="jumbotron bckrnjmb" style="height: 600px;">
+<div class="jumbotron bckrnjmb" style="height: 700px;">
     <div class="container">
         <div class="row">
             <div class="col-sm">
@@ -45,7 +31,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <center>
-                <img class="rounded-circle image" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Card image cap">
+                <img class="rounded-circle image" src="<?= base_url('assets/')?>pictures/jalangkote.jpg" alt="Card image cap" style="margin-left: 350px;"> 
                 </center>
             </div>
         </div>
@@ -83,7 +69,32 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia totam ea facere suscipit, sapiente reprehenderit id doloribus quae aut iure? Id, consequatur commodi aut fugit omnis harum ab! Sequi, pariatur!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vel iure minima dolor, consectetur ipsam ad dolorem, numquam quaerat id laboriosam repellat soluta porro maxime impedit, iste tenetur necessitatibus quas!
                     </p>
                 </div> 
+               </div>
             </div>
         </div>
     </div>
 </div>
+<footer>
+      <div id="welcome" class="text-white">
+          <div class="containers container">
+              <center>
+              <div class="title">
+                  <h4 class="font-header">Daeng Kuliner</h4>
+              </div>
+              <p>Ex: <strong>Jalangkote</strong> merupakan salah satu jajanan khas yang sering di jumpai di kota makassar. Jajanan ini merupakan sejenis gorengan berbahan dasar tepung.</p>
+              </center>
+          </div>
+          <div class="pad">
+          <p><i class="fab fa-instagram"></i> | <i class="fab fa-facebook"></i> | <i class="fab fa-twitter"></i>| <i class="fab fa-whatsapp"></i></p>
+      </div>
+      </div>
+  </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="<?= base_url('assets/')?>bootstrap/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="<?= base_url('assets/')?>bootstrap/js/popper.min.js"></script>
+    <script src="<?= base_url('assets/')?>bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?= base_url('assets/')?>fontawesome/js/all.min.js"></script>
+    <script src="<?= base_url('assets/')?>js/style.js"></script>
+  </body>
+</html>

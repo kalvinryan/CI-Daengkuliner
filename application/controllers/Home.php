@@ -33,7 +33,6 @@ class Home extends CI_Controller {
         $data['title'] = 'Recipes';
         $this->load->view('templates/header',$data);
         $this->load->view('home/recipes');
-        $this->load->view('templates/footer');
     }
 
 }
