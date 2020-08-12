@@ -1,5 +1,5 @@
  
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-navbarku">
   <a class="navbar-brand" href="<?= base_url('home')?>"><img src="<?= base_url('assets/')?>pictures/logo/Daeng Kuliner.png" width="50" height="55" alt=""></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

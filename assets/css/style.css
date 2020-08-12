@@ -196,5 +196,10 @@
     background-color:#FBD465;
     transition:2s;
     border: 5px #FBD465;
-    }
+}
+.bg-navbarku{
+    background-image: url("../pictures/Header/navbar.png");
+    background-size: cover;
+    height: 71px;
+}
 
